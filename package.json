@@ -1,0 +1,12 @@
+{
+  "name": "@precision-nutrition/eslint-config",
+  "version": "1.0.0",
+  "description": "Our common ESLint Configuration",
+  "main": "index.js",
+  "repository": "git@github.com:PrecisionNutrition/eslint-config.git",
+  "author": "Precision Nutrition Engineering",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
