@@ -14,6 +14,13 @@ module.exports = {
         'ignoredNodes': ['TemplateLiteral'],
       },
     ],
+    'keyword-spacing': [
+      'error',
+      {
+        'after': true,
+        'before': true,
+      },
+    ],
     'no-constant-condition': 'off',
     'quotes': ['error', 'single', { 'avoidEscape': true }],
     'semi': ['error', 'always'],
