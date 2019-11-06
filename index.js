@@ -18,7 +18,7 @@ module.exports = {
     'quotes': ['error', 'single', { 'avoidEscape': true }],
     'semi': ['error', 'always'],
     'space-before-blocks': 'error',
-    'space-before-function-parent': ['error', 'never'],
+    'space-before-function-paren': ['error', 'never'],
     'space-in-parens': ['error', 'never'],
   },
 };
