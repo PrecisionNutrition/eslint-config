@@ -17,5 +17,8 @@ module.exports = {
     'no-constant-condition': 'off',
     'quotes': ['error', 'single', { 'avoidEscape': true }],
     'semi': ['error', 'always'],
+    'space-before-blocks': 'error',
+    'space-before-function-parent': ['error', 'never'],
+    'space-in-parens': ['error', 'never'],
   },
 };
