@@ -1,5 +1,7 @@
 module.exports = {
   rules: {
+    'array-bracket-newline': ['error', 'consistent'],
+    'array-bracket-spacing': ['error', 'never'],
     'comma-dangle': ['error', 'always-multiline'],
     'indent': [
       'error',
