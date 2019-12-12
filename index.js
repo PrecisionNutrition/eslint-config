@@ -28,6 +28,7 @@ module.exports = {
       },
     ],
     'no-constant-condition': 'off',
+    'no-var': 'error',
     'quotes': ['error', 'single', { 'avoidEscape': true }],
     'semi': ['error', 'always'],
     'space-before-blocks': 'error',
