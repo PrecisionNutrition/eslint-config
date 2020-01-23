@@ -32,7 +32,11 @@ module.exports = {
     'quotes': ['error', 'single', { 'avoidEscape': true }],
     'semi': ['error', 'always'],
     'space-before-blocks': 'error',
-    'space-before-function-paren': ['error', 'never'],
+    'space-before-function-paren': ['error', {
+      'anonymous': 'never',
+      'named': 'never',
+      'asyncArrow': 'always'
+    }],
     'space-in-parens': ['error', 'never'],
   },
 };
