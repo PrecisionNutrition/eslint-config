@@ -1,6 +1,6 @@
 {
   "name": "@precision-nutrition/eslint-config",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "Our common ESLint Configuration",
   "main": "index.js",
   "repository": "git@github.com:PrecisionNutrition/eslint-config.git",
