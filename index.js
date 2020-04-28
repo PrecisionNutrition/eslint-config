@@ -40,6 +40,16 @@ module.exports = {
     'no-var': 'error',
     'no-use-before-define': 'error',
     'prefer-const': 'error',
+    'prefer-destructuring': [
+      'error',
+      {
+        'array': true,
+        'object': true,
+      },
+      {
+        'enforceForRenamedProperties': true,
+      }
+    ],
     'quotes': ['error', 'single', { 'avoidEscape': true }],
     'semi': ['error', 'always'],
     'space-before-blocks': 'error',
