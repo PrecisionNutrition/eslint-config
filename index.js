@@ -39,6 +39,7 @@ module.exports = {
     'no-constant-condition': 'off',
     'no-var': 'error',
     'no-use-before-define': 'error',
+    'object-curly-spacing': ['error', 'always'],
     'prefer-const': 'error',
     'prefer-destructuring': [
       'error',
