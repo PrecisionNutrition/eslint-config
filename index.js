@@ -48,7 +48,7 @@ module.exports = {
         'object': true,
       },
       {
-        'enforceForRenamedProperties': true,
+        'enforceForRenamedProperties': false,
       }
     ],
     'quotes': ['error', 'single', { 'avoidEscape': true }],
